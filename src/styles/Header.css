@@ -1,0 +1,35 @@
+/* Additional CSS for the header */
+.header {
+  padding: 1rem; /* Increased padding */
+  background-color: gray; /* Tailwind's blue-500 for background   #3b82f6 */
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow */
+}
+
+.header h1 {
+  font-size: 2.5rem; /* Increased font size */
+  font-weight: bold;
+  margin-right: 2rem; /* Added spacing between the title and nav */
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; /* Increased spacing between links */
+}
+
+.header a {
+  font-size: 1.125rem; /* Slightly larger font for links */
+  color: white;
+  transition: color 0.2s ease-in-out;
+}
+
+.header a:hover {
+  color: #d1d5db; /* Tailwind's gray-200 for hover effect */
+}
+
+.header .icon {
+  font-size: 2.5rem; /* Increased icon size */
+  margin-left: 1.5rem; /* Increased margin to separate from links */
+  color: #fde047; /* Tailwind's yellow-400 for icon color */
+}
